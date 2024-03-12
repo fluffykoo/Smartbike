@@ -1,0 +1,254 @@
+/* styles.css */
+
+/* Styles généraux */
+h1 {
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles du header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Styles du footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.entreprise-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* Styles de la page d'accueil */
+
+/* Conteneur pour les informations */
+.accueil-info-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: none; /* Supprimer la largeur maximale */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les informations individuelles */
+.accueil-info {
+    flex: 1;
+    max-width: 50%;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: left;
+}
+
+.accueil-info img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Styles pour l'image */
+.accueil-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.accueil-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Styles pour la section des vélos */
+.velos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.velo-item {
+    flex: 1 1 calc(33.33% - 20px);
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.velo-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.velo-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.velo-details,
+.velo-commander {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.velo-details:hover,
+.velo-commander:hover {
+    background-color: #555;
+}
+/* Styles pour la page de détails du vélo */
+
+/* Conteneur principal */
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: none; 
+    margin: 20px auto;
+}
+
+/* Styles pour les informations du vélo */
+.details-info {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-info p {
+    margin-bottom: 15px;
+    color: #333;
+    text-align: left;
+}
+
+/* Styles pour l'image du vélo */
+.details-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.details-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/* Styles pour le bouton Commander */
+.commander-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.commander-button:hover {
+    background-color: #45a049; /* Couleur de fond au survol du bouton */
+}
+/* Styles pour le formulaire de commande */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+select,
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Styles pour la page de succès de la commande */
+.success-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.success-container h1 {
+    font-size: 28px;
+}
+
+.success-container p {
+    font-size: 18px;
+}
+
+.success-container a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.success-container a:hover {
+    text-decoration: underline;
+}
+ 
