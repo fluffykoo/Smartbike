@@ -27,7 +27,11 @@ Les contributions sont les bienvenues! Pour contribuer:
 3. Faites vos modifications.
 4. Poussez vos modifications sur GitHub avec `git push origin <nom-de-la-branche>`.
 5. Créez une nouvelle Pull Request.
+   
+## Auteurs
 
+* **Oumou** _alias_ [@fluffykoo](https://github.com/fluffykoo)
+  
 ## Licence
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
